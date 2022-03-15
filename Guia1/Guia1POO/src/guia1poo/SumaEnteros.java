@@ -18,6 +18,8 @@ public class SumaEnteros {
 //        }
 
         var firstNumber = Integer.parseInt(JOptionPane.showInputDialog("Type de first number: "));
+        
+        
         if (firstNumber < 0) {
             JOptionPane.showMessageDialog(null, "you cannot enter negative numbers", "WARNING", JOptionPane.WARNING_MESSAGE);
             System.exit(0);
